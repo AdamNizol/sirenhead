@@ -1,5 +1,10 @@
 # sirenhead
 
+## Demo
+```
+https://adamnizol.github.io/sirenhead/
+```
+
 ## Project setup
 ```
 npm install
