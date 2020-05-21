@@ -100,6 +100,76 @@ export default {
   }
 }
 
+
+@keyframes defaultRightLower {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes defaultRightUpper {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+
+.rightLower {
+  animation: defaultRightLower 5s infinite;
+}
+.rightUpper {
+  animation: defaultRightUpper 5s infinite;
+}
+
+@keyframes defaultLefttLower {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes defaultLefttUpper {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-10deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.leftLower {
+  animation: defaultRightLower 4s infinite;
+}
+.leftUpper {
+  animation: defaultRightUpper 5s infinite;
+}
+
+
+
 @keyframes biteRightLower {
   0% {
     right: 27%;
