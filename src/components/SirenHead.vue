@@ -7,9 +7,13 @@
       <img :class="{'rightLower': true, 'animateBiteRightLower': biteRight}" src="@/assets/rightLower.png"/>
       <div class="biteZoneRight" @mouseover="bite('right')" @mouseleave="resetBites()"></div>
 
+      <img/>
+
       <img :class="{'leftUpper': true, 'animateBiteLeftUpper': biteLeft}" src="@/assets/leftUpper.png"/>
       <img :class="{'leftLower': true, 'animateBiteLeftLower': biteLeft}" src="@/assets/leftLower.png"/>
       <div class="biteZoneLeft" @mouseover="bite('left')"  @mouseleave="resetBites()"></div>
+
+      <img/>
 
       <img class="fullHeight" src="@/assets/base.png"/>
     </div>
